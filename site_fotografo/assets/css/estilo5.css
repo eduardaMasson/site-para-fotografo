@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    place-items: center;
+    background-image: url('/assets/img/linda.jfif');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-size: 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+h3{
+    font-size: 29px;
+    margin: 10px;
+    text-align: center;
+}
+
+.fundo-branco{
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.fundo-h1{
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.texto-bloco{
+    font-size: 17px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 10px;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+.m-margin {
+    margin: 11px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.botao{
+    border: 2px;
+    border-style: solid;
+    border-color: #be5c06;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #d46200;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao:hover {
+    background-color: #be5c06;
+    transform: scale(1.05);
+}
+
+ul{
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+
+.pacotes{
+    font-size: 18px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.center{
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.bloco{
+    margin-bottom: 2.5rem;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px gray;
+    border-radius: 12px;
+    width: 37%;
+    min-width: 300px;
+}
+
+.bloco:hover{
+    box-shadow: 0 4px 8px rgb(118, 117, 117);
+    transform: scale(1.007);
+}
+
+/* cabeçalho */
+.logo {
+    width: 90px;
+}
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    gap: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home {
+    color: #353535;
+    font-weight: bold;
+    font-size: larger;
+}
+
+/* rodapé */
+.sectionII {
+    background-color: #a3a3a3;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 30px;
+}
+
+.p2 {
+    color: white;
+    padding-left: 30px;
+    font-size: larger;
+}
+
+.img2 {
+    width: 200px;
+    padding-left: 20px;
+}
+
+.siga {
+    justify-self: flex-end;
+    padding-right: 30px;
+}
+
+.sig {
+    text-align: end;
+}
+
+.face {
+    width: 35px;
+}
+
+.whatsapp {
+    width: 60px;
+}
+
+.linkedin {
+    width: 60px;
+}
+
+.insta {
+    width: 60px;
+}
+
+.you {
+    width: 70px;
+}
+
+.img3 {
+    width: 100px;
+}
+
+footer{
+    background-color: #a3a3a3;
+}
+
+.p3 {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    padding: 30px;
+}
