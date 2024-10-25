@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+body {
+    background-color: #e0e0e0;
+    color: white;
+}
+
+:root {
+    --cinzaclaro:#e0e0e0;
+    --cinzaescuro: #acacac;
+    --black: #353535;
+}
+
+
+.div1 {
+    background-color: var(--cinzaescuro);
+    padding: 30px;
+}
+
+.titulo {
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: var(--cinzaclaro);
+    color: var(--black);
+}
+
+.a-center {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--cinzaclaro);
+    color: var(--black);
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.d-flex {
+    margin-top: 30px;
+    border-radius: 20px;
+    display: flex;
+    background-color: var(--cinzaescuro);
+}
+
+.vicente {
+    margin: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.lente {
+    margin: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.foto {
+    margin: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.d-center {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--cinzaclaro);
+    color: var(--black);
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+/* cabeçalho */
+.logo {
+    width: 90px;
+}
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    gap: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home {
+    color: #353535;
+    font-weight: bold;
+    font-size: larger;
+}
+
+/* rodapé */
+.sectionII {
+    background-color: #a3a3a3;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 30px;
+}
+
+.p2 {
+    color: white;
+    padding-left: 30px;
+    font-size: larger;
+}
+
+.img2 {
+    width: 200px;
+    padding-left: 20px;
+}
+
+.siga {
+    justify-self: flex-end;
+    padding-right: 30px;
+}
+
+.sig {
+    text-align: end;
+}
+
+.face {
+    width: 35px;
+}
+
+.whatsapp {
+    width: 60px;
+}
+
+.linkedin {
+    width: 60px;
+}
+
+.insta {
+    width: 60px;
+}
+
+.you {
+    width: 70px;
+}
+
+.img3 {
+    width: 100px;
+}
+
+footer{
+    background-color: #a3a3a3;
+}
+
+.p3 {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    padding: 30px;
+}
