@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .red {
+            color: red;
+        }
+    </style>
+
+    <h1 id="titulo">TITULO AQUI</h1>
+    <h2 class="subtitulo">SUB AQUI</h2>
+    <h2 class="subtitulo">Outro subtitulo aqui</h2>
+
+        <img src="" id="itens" alt="">
+
+    <p id="remove">AAAAAAAAAAAAAA</p>
+
+    <script>
+        // Captura pelo ID
+        var titulo = document.getElementById('titulo')
+        titulo.textContent = "Calopsita"
+        titulo.className = "red"
+
+        // Captura pela class
+        var sub = document.getElementsByClassName('subtitulo')
+        sub[0].className = "red"
+        sub[1].textContent = "NOVO TEXTO"
+
+        // Criando elementos
+        var itens = document.querySelector('#itens')
+        itens.setAttribute("src", "assets/img/app.jpg")
+
+
+        // Removendo um elemento 
+        var remove = document.querySelector("#remove")
+        remove.remove()
+    </script>
+</body>
+</html>
